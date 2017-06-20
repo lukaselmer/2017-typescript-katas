@@ -26,16 +26,16 @@
     "test-only": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
+  "author": "John Wayne <john@example.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsynowiec/node-typescript-boilerplate.git"
+    "url": "https://github.com/lukaselmer/node-typescript-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/jsynowiec/node-typescript-boilerplate/issues"
+    "url": "https://github.com/lukaselmer/node-typescript-boilerplate/issues"
   },
-  "homepage": "https://github.com/jsynowiec/node-typescript-boilerplate#readme",
+  "homepage": "https://github.com/lukaselmer/node-typescript-boilerplate#readme",
   "dependencies": {
     "tslib": "~1.7.1"
   }
