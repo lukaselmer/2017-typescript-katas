@@ -29,7 +29,8 @@ Provides a basic template, batteries included:
 
 ## Quick start
 
-This project is intended to be used with [Node.js v6.x (LTS)][nodejs] or later (but should work with any v6.2 or newer release) and [NPM][npm]. Make sure you have those installed. Then just type following commands:
+This project is intended to be used with nvm, which will automatically install [Node.js v6.x (LTS)][nodejs] or later. 
+Make sure you have nvm installed, or install Node and NPM manually. Then just type following commands:
 
 ```sh
 git clone https://github.com/lukaselmer/node-typescript-boilerplate
