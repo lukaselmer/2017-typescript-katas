@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+source ~/.zshrc
+
+echo -e '\033[32mSet node version\033[0m'
+nvm install
+nvm use
+
+echo -e '\033[32mInstall globally needed node packages\033[0m'
+npm install -g npm typescript tslint
+
+echo -e '\033[32mInstall node packages and get typings\033[0m'
+npm install
+
+echo -e '\033[32mSet pre-commit hook\033[0m'
+cat .git/hooks/pre-commit > /dev/null || ln -s ../../bin/check .git/hooks/pre-commit

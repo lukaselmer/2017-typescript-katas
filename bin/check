@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+source ~/.zshrc
+
+npm run lint
+npm run test-only

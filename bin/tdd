@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+source ~/.zshrc
+
+npm run test:watch
